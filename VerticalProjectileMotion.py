@@ -36,3 +36,4 @@ test = jump(30, 0, 9.8) # Parameters = (initial velocity, time, gravity)
 result = test.simulate()
 
 print("\n".join(result))
+print(test.peak())
